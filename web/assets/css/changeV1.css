@@ -89,6 +89,18 @@
             cursor: pointer;
         }
 
+        .active a{
+            color: #161616;
+        }
+        .cl{
+            clear: both;
+        }
+        .error_base_table{
+            width: 100%;
+        }
+        .text-center{
+            text-align: center;
+        }
         @media screen and (min-width: 768px) {
             .container2 {
                 width: 750px;
