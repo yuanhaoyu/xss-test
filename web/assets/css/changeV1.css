@@ -96,7 +96,12 @@
             clear: both;
         }
         .error_base_table{
-            width: 100%;
+            width: 69%;
+        }
+        .textarea_box{
+            width: 71%;
+            height: 650px;
+            overflow-y: auto;
         }
         .text-center{
             text-align: center;
