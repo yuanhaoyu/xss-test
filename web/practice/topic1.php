@@ -11,9 +11,8 @@ include_once('../php-inc/header.php');
     MAIN CONTENT
     *********************************************************************************************************************************************************** -->
     <!--main content start-->
-
-	<section class="container2">
-		<div class="content">
+    <section id="main-content">
+        <section class="wrapper">
 
             <div class="row">
                 <div class="col-lg-12 main-chart">
@@ -47,8 +46,9 @@ include_once('../php-inc/header.php');
                 </div><!-- /col-lg-9 END SECTION MIDDLE -->
 
             </div><!--/row -->
-		</div>
-	</section>
+        </section>
+    </section>
+
     <!--main content end-->
 
 <?php
