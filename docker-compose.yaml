@@ -1,0 +1,25 @@
+web:
+  build: .
+  links:
+         - xss_db:mysql
+  environment:
+        # mysql密码
+        - MYSQL_PASSWORD=admin
+        # host设置
+        - VIRTUAL_HOST=xss.twosecurity.xyz
+  cpu_shares: 100
+  mem_limit: 200m
+  privileged: true
+
+
+
+xss_db:
+  image: mysql
+  expose: 
+        - "3306"
+  environment:
+        # mysql--------root密码
+        - MYSQL_ROOT_PASSWORD=admin
+  cpu_shares: 50
+  mem_limit: 300m
+  privileged: true
