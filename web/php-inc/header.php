@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SQLI INJECTION PRACTICE</title>
+    <title>XSS Practice</title>
     <!-- Custom styles for this template -->
     <link href="../assets/css/typo.css" rel="stylesheet">    
     <link href="../assets/css/changeV1.css" rel="stylesheet">
