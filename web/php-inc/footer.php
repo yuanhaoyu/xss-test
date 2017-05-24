@@ -7,8 +7,8 @@
           </div>
       </footer> -->
       <!--footer end-->
-        <p class="footer-logo">power by TwoSecurityXYZ</p>
-  </section>
+      <p class="footer-logo">Powered by <a href="#">TwoSecurity</a></p>
+
 
 
 
