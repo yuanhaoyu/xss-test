@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>SQL INJECTION PRACTICE</title>
+    <title>SQLI INJECTION PRACTICE</title>
 
     <!-- Bootstrap -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">

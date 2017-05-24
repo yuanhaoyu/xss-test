@@ -7,7 +7,10 @@
           </div>
       </footer> -->
       <!--footer end-->
+        <p class="footer-logo">power by TwoSecurityXYZ</p>
   </section>
+
+
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.js"></script>

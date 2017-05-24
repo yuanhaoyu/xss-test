@@ -13,17 +13,19 @@
         .r {
             float: right;
         }
-
+        .ml0{
+            margin-left: 0!important;
+        }
+        .pt0{
+            padding-top: 0!important;
+        }
         .content {
             margin: 0 auto;
             padding: 100px;
             padding-left: 20px;
-            padding-top: 50px;
-            position: relative;
-            top: 50px;
             width: 100%;
             background: white;
-            min-height: 790px;
+            height: 100%;
             border: 1px solid #ddd;
             border-width: 0 1px;
         }
@@ -38,6 +40,8 @@
 
         .box1 {
             border: 0;
+            width: 600px;
+            margin-left: 5%;
         }
 
         .box1 h1 {
@@ -51,7 +55,12 @@
             margin-bottom: 35px;
         }
 
-        .box1 ul li {
+        .box1 ol {
+            list-style-type: decimal;
+            margin-left: 17px;
+        }
+
+        .box1 ol li {
             margin-bottom: 10px;
             font-size: 18px;
         }
@@ -79,40 +88,47 @@
         }
 
         nav {
-            margin-right: 45px;
+            width: 300px;
             padding-right: 58px;
             padding-left: 20px;
-            font-size: 19px;
+            margin-right: 2%;
+            font-size: 18px;
         }
 
         nav ul li {
             cursor: pointer;
         }
 
-        .active a{
+        .active a {
             color: #161616;
         }
-        .cl{
+
+        .cl {
             clear: both;
         }
-        .error_base_table{
+
+        .error_base_table {
             width: 69%;
         }
-        .textarea_box{
-            width: 71%;
+
+        .textarea_box {
+            width: 660px;
             height: 650px;
             overflow-y: auto;
         }
-        .text-center{
+
+        .text-center {
             text-align: center;
         }
+
         @media screen and (min-width: 768px) {
             .container2 {
                 width: 750px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
             .content {
-
                 min-height: 620px;
             }
         }
@@ -120,40 +136,64 @@
         @media screen and (min-width: 992px) {
             .container2 {
                 width: 970px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
         }
 
         @media screen and (min-width: 1200px) {
             .container2 {
                 width: 880px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
             .content {
-
                 min-height: 620px;
+            }
+            .textarea_box {
+                width: 400px;
+                height: 650px;
+                overflow-y: auto;
+            }
+            .box1 {
+                border: 0;
+                width: 400px;
+                margin-left: 5%;
             }
         }
 
         @media screen and (min-width: 1366px) {
             .container2 {
-
                 width: 940px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
             .content {
-
                 min-height: 620px;
+            }
+            .textarea_box {
+                width: 450px;
+                height: 650px;
+                overflow-y: auto;
+            }
+            .box1 {
+                border: 0;
+                width: 450px;
+                margin-left: 5%;
             }
         }
 
         @media screen and (min-width: 1440px) {
             .container2 {
                 width: 1170px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
             .content {
-
                 min-height: 620px;
             }
         }
@@ -161,10 +201,11 @@
         @media screen and (min-width: 1550px) {
             .container2 {
                 width: 1640px;
+                height: 100%;
                 margin: 0 auto;
+                padding-top: 40px;
             }
             .content {
-
                 min-height: 820px;
             }
         }
@@ -179,7 +220,19 @@
 
         .line {
             width: 1px;
-            height: 680px;
+            height: 100%;
             background: #ddd;
-            margin-right: 100px;
+        }
+
+        .about-box1 p{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .footer-logo{
+            position: absolute;
+            bottom: 14px;
+            right: 189px;
+            font-size: 15px;
+            font-weight: 400;
         }
