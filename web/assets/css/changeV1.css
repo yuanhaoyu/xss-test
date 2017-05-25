@@ -5,9 +5,9 @@
         }
 
         body {
-            height: 94%;
+            height: 95vh;
             background: #f2f2f2;
-            padding-top: 3%;
+            padding-top: 5vh;
         }
         ul{
             list-style: none!important;
